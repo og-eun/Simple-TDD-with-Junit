@@ -1,1 +1,1 @@
-# It is a simple unit test (Junit)
+# It is a simple tdd project with Junit.
