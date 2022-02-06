@@ -1,6 +1,7 @@
 package com.tdd;
 
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class MoneyTest {
     // Test 01. 곱셈 테스트
@@ -9,6 +10,6 @@ public class MoneyTest {
     public void testMultiplication() {
         Dollar five = new Dollar(5);
         five.times(2);
-        assertEquals(10, five.ammount);
+        assertEquals(10, five.amount);
     }
 }
