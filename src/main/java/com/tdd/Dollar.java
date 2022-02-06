@@ -8,7 +8,7 @@ public class Dollar {
         this.amount = amount;
     }
 
-    public void times(int multiplier) {
-        amount *= multiplier;
+    public int times(int multiplier) {
+        return this.amount * multiplier;
     }
 }
